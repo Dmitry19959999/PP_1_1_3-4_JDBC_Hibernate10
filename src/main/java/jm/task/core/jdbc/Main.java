@@ -7,12 +7,11 @@ public class Main {
         UserServiceImpl us = new UserServiceImpl();
         us.createUsersTable();
         us.saveUser("Mihail","Ivanov", (byte) 37);
-        us.saveUser("Petra","Petrov", (byte) 37);
+        us.saveUser("Petr","Petrov", (byte) 37);
         us.saveUser("Sidor","Sidorov", (byte) 37);
         System.out.println(us.getAllUsers());
         us.cleanUsersTable();
     }
 }
 
-// реализуйте алгоритм здесь
 
