@@ -7,7 +7,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-//import javax.transaction.Transaction;
 import java.util.ArrayList;
 import java.util.List;
 
